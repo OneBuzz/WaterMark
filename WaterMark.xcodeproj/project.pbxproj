@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A64FDE6D1C83626E003F85DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A64FDE6C1C83626E003F85DB /* main.m */; };
+		A64FDE701C83626E003F85DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A64FDE6F1C83626E003F85DB /* AppDelegate.m */; };
+		A64FDE731C83626E003F85DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A64FDE721C83626E003F85DB /* ViewController.m */; };
+		A64FDE761C83626E003F85DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A64FDE741C83626E003F85DB /* Main.storyboard */; };
+		A64FDE781C83626E003F85DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A64FDE771C83626E003F85DB /* Assets.xcassets */; };
+		A64FDE7B1C83626E003F85DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A64FDE791C83626E003F85DB /* LaunchScreen.storyboard */; };
+		A64FDE861C83626E003F85DB /* WaterMarkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A64FDE851C83626E003F85DB /* WaterMarkTests.m */; };
+		A64FDE911C83626E003F85DB /* WaterMarkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A64FDE901C83626E003F85DB /* WaterMarkUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A64FDE821C83626E003F85DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A64FDE601C83626E003F85DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A64FDE671C83626E003F85DB;
+			remoteInfo = WaterMark;
+		};
+		A64FDE8D1C83626E003F85DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A64FDE601C83626E003F85DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A64FDE671C83626E003F85DB;
+			remoteInfo = WaterMark;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A64FDE681C83626E003F85DB /* WaterMark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaterMark.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A64FDE6C1C83626E003F85DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A64FDE6E1C83626E003F85DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A64FDE6F1C83626E003F85DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A64FDE711C83626E003F85DB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A64FDE721C83626E003F85DB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A64FDE751C83626E003F85DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A64FDE771C83626E003F85DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A64FDE7A1C83626E003F85DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A64FDE7C1C83626E003F85DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A64FDE811C83626E003F85DB /* WaterMarkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaterMarkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A64FDE851C83626E003F85DB /* WaterMarkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaterMarkTests.m; sourceTree = "<group>"; };
+		A64FDE871C83626E003F85DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A64FDE8C1C83626E003F85DB /* WaterMarkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaterMarkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A64FDE901C83626E003F85DB /* WaterMarkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaterMarkUITests.m; sourceTree = "<group>"; };
+		A64FDE921C83626E003F85DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A64FDE651C83626E003F85DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A64FDE7E1C83626E003F85DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A64FDE891C83626E003F85DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A64FDE5F1C83626E003F85DB = {
+			isa = PBXGroup;
+			children = (
+				A64FDE6A1C83626E003F85DB /* WaterMark */,
+				A64FDE841C83626E003F85DB /* WaterMarkTests */,
+				A64FDE8F1C83626E003F85DB /* WaterMarkUITests */,
+				A64FDE691C83626E003F85DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A64FDE691C83626E003F85DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A64FDE681C83626E003F85DB /* WaterMark.app */,
+				A64FDE811C83626E003F85DB /* WaterMarkTests.xctest */,
+				A64FDE8C1C83626E003F85DB /* WaterMarkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A64FDE6A1C83626E003F85DB /* WaterMark */ = {
+			isa = PBXGroup;
+			children = (
+				A64FDE6E1C83626E003F85DB /* AppDelegate.h */,
+				A64FDE6F1C83626E003F85DB /* AppDelegate.m */,
+				A64FDE711C83626E003F85DB /* ViewController.h */,
+				A64FDE721C83626E003F85DB /* ViewController.m */,
+				A64FDE741C83626E003F85DB /* Main.storyboard */,
+				A64FDE771C83626E003F85DB /* Assets.xcassets */,
+				A64FDE791C83626E003F85DB /* LaunchScreen.storyboard */,
+				A64FDE7C1C83626E003F85DB /* Info.plist */,
+				A64FDE6B1C83626E003F85DB /* Supporting Files */,
+			);
+			path = WaterMark;
+			sourceTree = "<group>";
+		};
+		A64FDE6B1C83626E003F85DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A64FDE6C1C83626E003F85DB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A64FDE841C83626E003F85DB /* WaterMarkTests */ = {
+			isa = PBXGroup;
+			children = (
+				A64FDE851C83626E003F85DB /* WaterMarkTests.m */,
+				A64FDE871C83626E003F85DB /* Info.plist */,
+			);
+			path = WaterMarkTests;
+			sourceTree = "<group>";
+		};
+		A64FDE8F1C83626E003F85DB /* WaterMarkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A64FDE901C83626E003F85DB /* WaterMarkUITests.m */,
+				A64FDE921C83626E003F85DB /* Info.plist */,
+			);
+			path = WaterMarkUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A64FDE671C83626E003F85DB /* WaterMark */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A64FDE951C83626E003F85DB /* Build configuration list for PBXNativeTarget "WaterMark" */;
+			buildPhases = (
+				A64FDE641C83626E003F85DB /* Sources */,
+				A64FDE651C83626E003F85DB /* Frameworks */,
+				A64FDE661C83626E003F85DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WaterMark;
+			productName = WaterMark;
+			productReference = A64FDE681C83626E003F85DB /* WaterMark.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A64FDE801C83626E003F85DB /* WaterMarkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A64FDE981C83626E003F85DB /* Build configuration list for PBXNativeTarget "WaterMarkTests" */;
+			buildPhases = (
+				A64FDE7D1C83626E003F85DB /* Sources */,
+				A64FDE7E1C83626E003F85DB /* Frameworks */,
+				A64FDE7F1C83626E003F85DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A64FDE831C83626E003F85DB /* PBXTargetDependency */,
+			);
+			name = WaterMarkTests;
+			productName = WaterMarkTests;
+			productReference = A64FDE811C83626E003F85DB /* WaterMarkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A64FDE8B1C83626E003F85DB /* WaterMarkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A64FDE9B1C83626E003F85DB /* Build configuration list for PBXNativeTarget "WaterMarkUITests" */;
+			buildPhases = (
+				A64FDE881C83626E003F85DB /* Sources */,
+				A64FDE891C83626E003F85DB /* Frameworks */,
+				A64FDE8A1C83626E003F85DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A64FDE8E1C83626E003F85DB /* PBXTargetDependency */,
+			);
+			name = WaterMarkUITests;
+			productName = WaterMarkUITests;
+			productReference = A64FDE8C1C83626E003F85DB /* WaterMarkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A64FDE601C83626E003F85DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Irving;
+				TargetAttributes = {
+					A64FDE671C83626E003F85DB = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 5ZDHR752TW;
+					};
+					A64FDE801C83626E003F85DB = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 5ZDHR752TW;
+						TestTargetID = A64FDE671C83626E003F85DB;
+					};
+					A64FDE8B1C83626E003F85DB = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 5ZDHR752TW;
+						TestTargetID = A64FDE671C83626E003F85DB;
+					};
+				};
+			};
+			buildConfigurationList = A64FDE631C83626E003F85DB /* Build configuration list for PBXProject "WaterMark" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A64FDE5F1C83626E003F85DB;
+			productRefGroup = A64FDE691C83626E003F85DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A64FDE671C83626E003F85DB /* WaterMark */,
+				A64FDE801C83626E003F85DB /* WaterMarkTests */,
+				A64FDE8B1C83626E003F85DB /* WaterMarkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A64FDE661C83626E003F85DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A64FDE7B1C83626E003F85DB /* LaunchScreen.storyboard in Resources */,
+				A64FDE781C83626E003F85DB /* Assets.xcassets in Resources */,
+				A64FDE761C83626E003F85DB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A64FDE7F1C83626E003F85DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A64FDE8A1C83626E003F85DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A64FDE641C83626E003F85DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A64FDE731C83626E003F85DB /* ViewController.m in Sources */,
+				A64FDE701C83626E003F85DB /* AppDelegate.m in Sources */,
+				A64FDE6D1C83626E003F85DB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A64FDE7D1C83626E003F85DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A64FDE861C83626E003F85DB /* WaterMarkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A64FDE881C83626E003F85DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A64FDE911C83626E003F85DB /* WaterMarkUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A64FDE831C83626E003F85DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A64FDE671C83626E003F85DB /* WaterMark */;
+			targetProxy = A64FDE821C83626E003F85DB /* PBXContainerItemProxy */;
+		};
+		A64FDE8E1C83626E003F85DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A64FDE671C83626E003F85DB /* WaterMark */;
+			targetProxy = A64FDE8D1C83626E003F85DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A64FDE741C83626E003F85DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A64FDE751C83626E003F85DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A64FDE791C83626E003F85DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A64FDE7A1C83626E003F85DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A64FDE931C83626E003F85DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A64FDE941C83626E003F85DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A64FDE961C83626E003F85DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WaterMark/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.one.buzz.WaterMark;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A64FDE971C83626E003F85DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WaterMark/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.one.buzz.WaterMark;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A64FDE991C83626E003F85DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WaterMarkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.one.buzz.WaterMarkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WaterMark.app/WaterMark";
+			};
+			name = Debug;
+		};
+		A64FDE9A1C83626E003F85DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WaterMarkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.one.buzz.WaterMarkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WaterMark.app/WaterMark";
+			};
+			name = Release;
+		};
+		A64FDE9C1C83626E003F85DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WaterMarkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.one.buzz.WaterMarkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WaterMark;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A64FDE9D1C83626E003F85DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WaterMarkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.one.buzz.WaterMarkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WaterMark;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A64FDE631C83626E003F85DB /* Build configuration list for PBXProject "WaterMark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A64FDE931C83626E003F85DB /* Debug */,
+				A64FDE941C83626E003F85DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A64FDE951C83626E003F85DB /* Build configuration list for PBXNativeTarget "WaterMark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A64FDE961C83626E003F85DB /* Debug */,
+				A64FDE971C83626E003F85DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A64FDE981C83626E003F85DB /* Build configuration list for PBXNativeTarget "WaterMarkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A64FDE991C83626E003F85DB /* Debug */,
+				A64FDE9A1C83626E003F85DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A64FDE9B1C83626E003F85DB /* Build configuration list for PBXNativeTarget "WaterMarkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A64FDE9C1C83626E003F85DB /* Debug */,
+				A64FDE9D1C83626E003F85DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A64FDE601C83626E003F85DB /* Project object */;
+}
